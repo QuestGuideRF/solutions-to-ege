@@ -1,0 +1,9 @@
+for x in range (1 ,2031 ):
+    S =7 **91 +7 **160 -x
+    k =0
+    while S >0 :
+        if S %7 ==0 :
+            k +=1
+        S =S //7
+    if k ==70 :
+        print (x )

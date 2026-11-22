@@ -1,0 +1,7 @@
+F =[0 ]*3000
+for n in range (len (F )):
+    if n ==1 :
+        F [n ]=1
+    if n >1 :
+        F [n ]=(n -1 )*F [n -1 ]
+print ((F [2024 ]+2 *F [2023 ])//F [2022 ])
